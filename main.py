@@ -13,7 +13,7 @@ if r.status_code == 200:  #checks the status code
     # for i in table_.find_all('tbody'):
     #     title = i.text.strip()
     #     headers.append(title)
-    # print(headers)
+    print()
     body = table_.find_all('tbody') #finds the body of the table
     for team in body:
         for i in range(0,3):
