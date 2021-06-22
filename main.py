@@ -4,17 +4,28 @@ import requests
 from bs4 import BeautifulSoup
 def csvfunc(x):
     c = 0
+    nm = []
+    cn = []
+    pt = []
+    for n in range(0, 1000, 3):
+        nm.append(n)
+        cn.append((n + 1))
+        pt.append((n + 2))
     length = len(x)
     with open('store.csv', 'w', newline='') as csvfile:
-        fieldnames = ['S.N','Name','Constituency','Party']
+        fieldnames = ['S.N','Constituency','Name','Party','State','Twitter', 'Politwoops']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for j in range(1,length):
-            while x != []:
-                c = c+1
-                writer.writerow({'S.N':c, 'Name':x[j-1], 'Constituency':x[j], 'Party':x[j+1]})
-                x =x[3:]
-def main():
+        for j in range(0,length):
+            if (j in nm):
+                cnst = x[j]
+            elif (j in cn):
+                name = x[j]
+            elif (j in pt):
+                party = x[j]
+                c += 1
+                writer.writerow({'S.N':c,'Constituency':cnst,'Name':name, 'Party':party})
+def scrape():
     y = []
     url = 'https://en.m.wikipedia.org/wiki/List_of_members_of_the_17th_Lok_Sabha'
     r = requests.get(url)
@@ -30,4 +41,4 @@ def main():
         print(y)
         csvfunc(y)
 if __name__ == "__main__":
-    main()
+    scrape()
