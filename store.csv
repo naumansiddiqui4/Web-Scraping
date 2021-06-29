@@ -1,28 +1,27 @@
-S.N,Constituency,Name,Party,State,Twitter,Politwoops
-1,Araku,Goddeti Madhavi,YSR Congress Party,,,
-2,Srikakulam,Ram Mohan Naidu Kinjarapu,Telugu Desam Party,,,
-3,Vizianagaram,Bellana Chandra Sekhar,YSR Congress Party,,,
-4,Visakhapatnam,M. V. V. Satyanarayana,YSR Congress Party,,,
-5,Anakapalli,Beesetti Venkata Satyavathi,YSR Congress Party,,,
-6,Kakinada,Vanga Geetha,YSR Congress Party,,,
-7,Amalapuram,Chinta Anuradha,YSR Congress Party,,,
-8,Rajahmundry,Margani Bharat,YSR Congress Party,,,
-9,Narasapuram,Kanumuru Raghu Rama Krishna Raju,YSR Congress Party,,,
-10,Eluru,Kotagiri Sridhar,YSR Congress Party,,,
-11,Machilipatnam,Vallabhaneni Balasouri,YSR Congress Party,,,
-12,Vijayawada,Kesineni Srinivas,Telugu Desam Party,,,
-13,Guntur,Galla Jayadev,Telugu Desam Party,,,
-14,Narasaraopet,Lavu Sri Krishna Devarayalu,YSR Congress Party,,,
-15,Bapatla,Nandigam Suresh,YSR Congress Party,,,
-16,Ongole,Magunta Sreenivasulu Reddy,YSR Congress Party,,,
-17,Nandyal,Pocha Brahmananda Reddy,YSR Congress Party,,,
-18,Kurnool,Ayushman Doctor Sanjeev Kumar,YSR Congress Party,,,
-19,Anantapur,Talari Rangaiah,YSR Congress Party,,,
-20,Hindupur,Kuruva Gorantla Madhav,YSR Congress Party,,,
-21,Kadapa,Y. S. Avinash Reddy,YSR Congress Party,,,
-22,Nellore,Adala Prabhakara Reddy,YSR Congress Party,,,
-23,Tirupati,"Balli Durga Prasad Rao
-(Died on 16 September 2020)[1]",YSR Congress Party,,,
-24,"Maddila Gurumoorthy
-(Elected on 2 May 2021)",YSR Congress Party,Rajampet,,,
-25,P. V. Midhun Reddy,YSR Congress Party,Chittoor,,,
+S.N,Constituency,Name,Party,State,Term_Start,Term_End,Twitter,Politwoops
+1,Araku,Goddeti Madhavi,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+2,Srikakulam,Ram Mohan Naidu Kinjarapu,Telugu Desam Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+3,Vizianagaram,Bellana Chandra Sekhar,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+4,Visakhapatnam,M. V. V. Satyanarayana,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+5,Anakapalli,Beesetti Venkata Satyavathi,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+6,Kakinada,Vanga Geetha,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+7,Amalapuram,Chinta Anuradha,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+8,Rajahmundry,Margani Bharat,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+9,Narasapuram,Kanumuru Raghu Rama Krishna Raju,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+10,Eluru,Kotagiri Sridhar,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+11,Machilipatnam,Vallabhaneni Balashowry,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+12,Vijayawada,Kesineni Srinivas,Telugu Desam Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+13,Guntur,Galla Jayadev,Telugu Desam Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+14,Narasaraopet,Lavu Sri Krishna Devarayalu,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+15,Bapatla,Nandigam Suresh,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+16,Ongole,Magunta Sreenivasulu Reddy,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+17,Nandyal,Pocha Brahmananda Reddy,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+18,Kurnool,Ayushman Doctor Sanjeev Kumar,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+19,Anantapur,Talari Rangaiah,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+20,Hindupur,Kuruva Gorantla Madhav,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+21,Kadapa,Y. S. Avinash Reddy,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+22,Nellore,Adala Prabhakara Reddy,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+23,Tirupati,Balli Durga Prasad Rao(died on 16 September 2020)[1],YSR Congress Party,Andhra Pradesh,2019-05-01,2020-09-16 00:00:00,False,False
+24,Tirupati,Maddila Gurumoorthy(Elected on 2 May 2021),YSR Congress Party,Andhra Pradesh,2021-05-02 00:00:00,Still in Parliament,False,False
+25,Rajampet,P. V. Midhun Reddy,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
+26,Chittoor,N. Reddeppa,YSR Congress Party,Andhra Pradesh,2019-05-01,Still in Parliament,False,False
