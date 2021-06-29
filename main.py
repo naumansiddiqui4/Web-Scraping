@@ -49,15 +49,14 @@ def scrape():
         str_lst.append(n)
     y = []
     k = []
-    val = ''
     url = 'https://en.m.wikipedia.org/wiki/List_of_members_of_the_17th_Lok_Sabha'
     r = requests.get(url)
     if r.status_code == 200:  #checks the status code
-        soup = BeautifulSoup(r.text, 'html.parser')
-        table_ = soup.find('table', class_ = 'wikitable').next
-        row = table_.find_all('tr') #finds the body of the table
+        soup = BeautifulSoup(r.text, 'html.parser') #parses the webpage and stores its source code
+        table_ = soup.find('table', class_ = 'wikitable') #finds the first table of the webpage
+        row = table_.find_all('tr') #finds the tr tags of the table
         for team in range(0,len(row)):
-            head = row[team].find_all('td')
+            head = row[team].find_all('td') #finds all the data entries in every row
             for i in head:
                 if '' != i.text.strip():
                     y.append(i.text.strip())
@@ -83,11 +82,10 @@ def scrape():
         for i in range(0,len(k)):
             if 'died on' in k[i] and 'Vacant' in k[i+5]:
                 k.insert((i+6),'Vacant')
+                k.insert((i+6),'Vacant')
+                k.insert((i+6),'Vacant')
                 k.pop(i+7)
                 k.pop(i+7)
-                k.insert((i + 6), 'Vacant')
-                k.insert((i + 6), 'Vacant')
-
             if 'died on' in k[i]:
                 k[i+3] = _date(k[i])
                 ele = _date(k[i+5])
@@ -96,5 +94,7 @@ def scrape():
                 k.pop(i+8)
         print(k)
         csvfunc(k)
+    else:
+        print("Invalid Source Code.")
 if __name__ == "__main__":
     scrape()
