@@ -47,8 +47,8 @@ def scrape():
     end_lst = []
     for n in range(3, 1000000, 5):
         str_lst.append(n)
-    y = []*1000000
-    k = []*1000000
+    y = []
+    k = []
     val = ''
     url = 'https://en.m.wikipedia.org/wiki/List_of_members_of_the_17th_Lok_Sabha'
     r = requests.get(url)
@@ -81,6 +81,13 @@ def scrape():
         pos = ''
         ele = ''
         for i in range(0,len(k)):
+            if 'died on' in k[i] and 'Vacant' in k[i+5]:
+                k.insert((i+6),'Vacant')
+                k.pop(i+7)
+                k.pop(i+7)
+                k.insert((i + 6), 'Vacant')
+                k.insert((i + 6), 'Vacant')
+
             if 'died on' in k[i]:
                 k[i+3] = _date(k[i])
                 ele = _date(k[i+5])
