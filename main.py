@@ -72,7 +72,7 @@ def scrape():
         k.append(y[0])
         for i in range(1,len(y)):
             if i%3 == 0:
-                k.append('2019-05-01')
+                k.append('2019-05-01 00:00:00')
                 k.append('Still in Parliament')
                 k.append(y[i])
             else:
@@ -80,13 +80,14 @@ def scrape():
         pos = ''
         ele = ''
         for i in range(0,len(k)):
-            if 'died on' in k[i] and 'Vacant' in k[i+5]:
+            if 'Died on' in k[i] and 'Vacant' in k[i+5]:
                 k.insert((i+6),'Vacant')
                 k.insert((i+6),'Vacant')
                 k.insert((i+6),'Vacant')
                 k.pop(i+7)
                 k.pop(i+7)
-            if 'died on' in k[i]:
+            elif 'Died on' in k[i]:
+                # print(k[i])
                 k[i+3] = _date(k[i])
                 ele = _date(k[i+5])
                 pos = (i+7)
@@ -95,6 +96,6 @@ def scrape():
         print(k)
         csvfunc(k)
     else:
-        print("Invalid Source Code.")
+        print("Invalid Status Code.")
 if __name__ == "__main__":
     scrape()
